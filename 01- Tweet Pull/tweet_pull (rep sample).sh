@@ -1,0 +1,44 @@
+# SOURCE: https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/
+
+# TWARC2 METHOD.
+
+#configure deyip bearer token'i girmek lazim.
+twarc2 configure
+
+#extract a representative sample
+cd raw_rep_sample
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-05-01 --end-time 2021-05-06 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a1.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-05-06 --end-time 2021-05-13 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a2.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-05-13 --end-time 2021-05-20 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a3.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-05-20 --end-time 2021-05-27 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a4.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-05-27 --end-time 2021-06-03 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a5.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-06-03 --end-time 2021-06-10 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a6.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-06-10 --end-time 2021-06-17 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a7.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-06-17 --end-time 2021-06-24 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a8.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-06-24 --end-time 2021-07-01 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a9.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-07-01 --end-time 2021-07-08 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a10.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-07-08 --end-time 2021-07-15 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a11.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-07-15 --end-time 2021-07-22 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a12.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-07-22 --end-time 2021-07-29 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a13.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-07-29 --end-time 2021-08-05 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a14.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-08-05 --end-time 2021-08-12 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a15.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-08-12 --end-time 2021-08-19 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a16.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-08-19 --end-time 2021-08-26 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a17.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-08-26 --end-time 2021-09-03 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a18.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-09-03 --end-time 2021-09-10 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a19.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-09-10 --end-time 2021-09-17 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a20.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-09-17 --end-time 2021-09-24 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a21.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-09-24 --end-time 2021-10-01 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a22.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-10-01 --end-time 2021-10-08 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a23.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-10-08 --end-time 2021-10-15 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a24.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-10-15 --end-time 2021-10-22 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a25.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-10-22 --end-time 2021-10-29 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a26.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-10-29 --end-time 2021-11-05 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a27.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-11-05 --end-time 2021-11-12 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a28.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-11-12 --end-time 2021-11-19 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a29.json
+twarc2 search --archive --limit 1500 --no-context-annotations --start-time 2021-11-19 --end-time 2021-11-22 '(taliban OR taleban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR pashto OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en -is:retweet' a30.json
+
+twarc2 csv a1.json a1.csv
+
+#TURN JSON FILES TO CSV (FOR LOOP)
+for file in *; do twarc2 csv $file $file.csv; done #ABORT THIS FUNCTION WHEN DONE!!!
