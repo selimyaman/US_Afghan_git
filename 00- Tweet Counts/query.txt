@@ -1,0 +1,1 @@
+(taliban OR afghanistan OR afghan OR (Islamic Emirate) OR kabul OR pashtun OR kandahar OR pashtuns OR (Ashraf Ghani)) lang:en until:2021-05-06 since:2021-05-01 -is:retweet
