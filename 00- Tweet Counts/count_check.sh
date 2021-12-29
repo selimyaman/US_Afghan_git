@@ -9,5 +9,7 @@ cd Desktop/us_taliban
 #configure deyip bearer token'i girmek lazim.
 twarc2 configure
 
+#create a seperate file, 'query.txt' where you specify the search parameters when sending a request to the API
+
 ## count check first
 twarc2 searches --archive --start-time 2021-05-01 --end-time 2021-11-18 --counts-only query.txt tweet_counts.csv
