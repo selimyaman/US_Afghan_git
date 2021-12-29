@@ -34,3 +34,4 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+02- Location Extraction/tweets_sample_v2(representative).csv
