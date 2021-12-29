@@ -10,3 +10,5 @@ Here, we do:
 - remove accounts who follow less than 5 people or more than 5 people.
 
 etc.
+
+Final product after running this R script is a cleaned version of the tweet dataset: `pre_bot_rep_v3.csv`
