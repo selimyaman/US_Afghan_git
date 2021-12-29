@@ -1,28 +1,9 @@
-# US Twitter Users' Opinion on Afghanistan Withdrawal
- This research project looks at the Twitter users' ideological and sentimental change towards the US withdrawal from Afghanistan.
- 
- More spesifically, research questions we are seeking to answer are:
- 
-- How did the opinion among American Twitter users (elites v. public opinion) change towards the US withdrawal from Afghanistan over time?
- 
-- How did the opinion among American Twitter users (liberals v. conservatives) change towards the US withdrawal from Afghanistan over time?
+# Location Extraction
 
-- What were the topics for different ideological groups in the contect of Afghanistan withdrawal?
+As a first step of data cleaning, we wanted to clean all the tweets from non-US countries - that is, if they publicly shared this information on their profile pages. We kept those who say they're from the US and those who do not spesificy anything.
 
-- Did Republicans or Liberals find Biden administration's handling of the situation satisfying?
+The location extraction method is borrowed from [TIMME](https://github.com/franklinnwren/TIMME-formatted-location). This approach re-formats the public location information into city, state, and country level.
 
-- How did the sentiments change? Did both ideological groups get more intense over time, or did it slowly fade away?
+The alternative way of pulling tweets only from the US was to spesifcy `country` information in the search parameters when pulling tweets. However, this limits us only those who share their geo-location information, which is usually very low percentage of Twitter users. 
 
-## Methodology
 
-We utilized several methods when doing Tweet analyses. These are:
-
-1. Tweet Pull using API V.2
-2. Location Extraction
-3. Data Cleaning (Basics)
-4. Data Cleaning (Bot removals)
-5. Ideology Estimation
-6. Sentiment Analysis (?)
-7. Topic Modeling by Ideology (STM)
-
-To replicate the materials, we also provide Tweet IDs. Twitter does not allow raw datasets to be shared publicly. You can use Tweet hydrators to build the dataset again. Replication results will be probably very close to our results, but not the same as some accounts will be deleted/protected after we compiled the dataset.
