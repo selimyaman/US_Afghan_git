@@ -1,3 +1,5 @@
+renv::init()
+
 library(readr)
 counts <- read_csv("Desktop/us_taliban/tweet_counts.csv")
 
@@ -57,3 +59,5 @@ ggplot(counts_subset, aes(x = start, y = day_count),as.numeric = FALSE) +
   ggtitle("Tweet Counts Change During the Withdrawal") 
 dev.off()
  # ylim(-500, 7300)
+
+renv::snpashot()
