@@ -7,7 +7,7 @@ Here, we do:
 - import dataset into R
 - merge the main dataset with the locations
 - remove unnecassary locations
-- remove accounts who follow less than 5 people or more than 5 people.
+- remove accounts who follow less than 5 people or more than 1500 people.
 
 etc.
 
