@@ -1,11 +1,12 @@
-# US Twitter Users' Opinion on Afghanistan Withdrawal
- This research project contains replication materials for the paper **"Do Politics Stop at the Water’s Edge? Evidence from Twitter Discussions on Afghanistan Withdrawal"**.
+# Replication Materials for: Do Politics Stop at the Water’s Edge? Evidence from Twitter Discussions on Afghanistan Withdrawal
+
+This repo contains replication materials for the paper **"Do Politics Stop at the Water’s Edge? Evidence from Twitter Discussions on Afghanistan Withdrawal"**.
  
 You can find the paper in the following link:
 
 https://selimyaman.com/uploads/stm.pdf
  
-The paper looks at the Twitter users' variation in ideology and sentiments towards the US withdrawal from Afghanistan.
+The research looks at the Twitter users' variation in ideology and sentiments towards the US withdrawal from Afghanistan.
 
 ## Methodology
 
